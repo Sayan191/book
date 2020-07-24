@@ -1,0 +1,97 @@
+
+.parallax{
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+
+}
+
+.parallax1{
+    
+    background: url("12.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2{
+    
+    background: url("11.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+
+  .parallax3{
+    
+    background: url("14.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+
+.ParallaxVideo{ 
+    height: 500px;
+    padding-bottom: 50px;
+    padding-top: 50px; 
+    }
+    
+.ParallaxVideo video{ 
+    min-width: 100%;
+    position: fixed;
+    top:0;
+    z-index: -999;
+    }  
+
+.ParallaxContent h2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    } 
+
+.ParallaxContent p{ 
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: courier;
+}
+
+.side{
+      margin-top: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.side img:hover{
+  width: 250px;
+  height: 300px;
+  transition:all 0.4s ease;
+  cursor: pointer;
+}
+
+.ParallaxVideo1{ 
+  height: 500px;
+  padding-bottom: 50px;
+  padding-top: 50px; 
+  }
+  
+.ParallaxVideo1 video{ 
+  min-width: 100%;
+  position: fixed;
+  top: 500;
+  z-index: -999;
+  }  
